@@ -1,0 +1,35 @@
+@media (min-width: 500px) and (max-width: 600px){
+    th {
+        font-size: 13px;
+        padding: 10px 8px;
+    }
+    td{
+        font-size: 13px;
+    }
+    table button {
+        padding: 6px 10px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 701px){
+    th {
+        font-size: 16px;
+        padding: 10px 7px;
+    }
+    table button {
+        padding: 6px 12px ;
+    }
+}
+
+
+
+@media (max-width: 499px){
+.info{
+    display: block !important;
+    overflow-x: scroll;
+}
+form input {
+    font-size: 12px;
+}
+
+}
